@@ -67,7 +67,7 @@ const userReducer = (state , action) =>{
 const store = configureStore({
   reducer: {
     // shoppingCart:  shoppingCartReducer,
-    userReducer,
+    user: userReducer,
     userState: ACTIONS.USERSTATE,
   },
 })
